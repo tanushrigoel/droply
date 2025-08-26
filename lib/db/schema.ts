@@ -48,5 +48,5 @@ export const filesRelations = relations(files, ({ one, many }) => ({
 }));
 
 // defining type of file for typescript
-export const File = typeof files.$inferSelect;
-export const newFile = typeof files.$inferInsert;
+export type File = typeof files.$inferSelect;
+export type NewFile = typeof files.$inferInsert;
