@@ -290,7 +290,7 @@ export default function SignUpForm() {
 
           <div className="space-y-4">
             <div className="flex items-start gap-2">
-              <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+              {/* <CheckCircle className="h-5 w-5 text-primary mt-0.5" /> */}
               <p className="text-sm text-default-600">
                 By signing up, you agree to our Terms of Service and Privacy
                 Policy
